@@ -1,37 +1,39 @@
- <style>
-
-h1{
-
-color: red;
-text-align: center;
-  }
-  
-  body{
+body{
     background-color: black;
   }
          ul {
   list-style-type: none;
   margin: 0;
   padding: 28px 16px;
-  background-color: white;
+  background-color:
+white;
   width: 100%;
   top: 0;
   left: 0;
+overflow: hidden;
 }
 
 li {
   list-style-type: none;
-  display: inline-block;
+  display: block;
   width: 60px;
-  padding: 1px 86px;
+  padding: 0px 60px;
   display: inline;
-  float: center;
+  float: left;
 }
 
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px 60px;
+  
+ 
+}
 li a hover {
   background-color: blue;
+
+ 
 }
-      
-  
-</style>
       
